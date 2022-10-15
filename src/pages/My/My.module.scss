@@ -1,0 +1,39 @@
+.border-my-info {
+    border: 2px solid #ff3c61 !important;
+}
+
+.edit-password {
+    .form-group {
+        margin-bottom: 25px;
+    }
+    input {
+        outline: none;
+        border: 2px solid #999;
+        border-radius: 20px;
+        padding: 10px 5px;
+        padding-left: 12px;
+    }
+
+    input:hover {
+        border: 2px solid #0dc253;
+    }
+
+    .btn-submit {
+        padding: 10px;
+        border-radius: 20px;
+        background: linear-gradient(0deg, #f37a60, #f04d2a) !important;
+    }
+    .select-banking {
+        width: 100%;
+        border: 2px solid #999;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 10px 5px;
+        padding-left: 12px;
+    }
+    .select-banking:hover,
+    .select-banking:active,
+    .select-banking:focus {
+        border: 2px solid #0dc253;
+    }
+}
